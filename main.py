@@ -53,6 +53,6 @@ if diff_percent > 0:
     for article in formatted_articles:
         message = client.messages.create(
             body=formatted_articles,
-            from_='YOUR_TWILIO_NUMBER',
-            to='YOUR_NUMBER',
+            from_="YOUR_TWILIO_NUMBER",
+            to="YOUR_NUMBER",
         )
